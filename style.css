@@ -1,0 +1,143 @@
+*{
+
+margin:0px;
+padding:0px;
+
+}
+
+
+@keyframes a {
+
+    0% {
+           
+       background-position:top;
+    }
+    100% {
+        background-position:bottom;    
+        }
+
+}
+
+
+body{
+height:100vh;
+width:100vw;
+display:flex;
+animation:a 20s infinite;
+background-image: url("f.jpeg");
+}
+
+#ow{
+
+    height:50px;
+    width:120px;
+    position:relative;
+    justify-content:center;
+    background-position:center;
+    top:84vh;
+    right:30vw;
+}
+
+
+#b{
+height:100vh;
+width:70vw;
+display:flex;
+overflow:hidden;
+position:relative;
+left:12vw;
+}
+
+#butt{
+height:40px;
+width:60px;
+border:0px solid transparent;
+background-image: linear-gradient(to right,lightgreen,skyblue);
+text-decoration:none;
+border:1px solid black;
+border-radius:9px;
+filter: drop-shadow(0 0 17px rgba(0,255,255,0.9));
+position:relative;
+bottom:39.66px;
+right:17vw;
+}
+
+a{
+text-decoration:none;
+color:black;
+}
+
+
+a:hover{
+text-decoration:none;
+color:white;
+}
+
+#ai{
+height:40px;
+width:40px;
+border:0px solid transparent;
+background-image: linear-gradient(to right,lightgreen,skyblue);
+text-decoration:none;
+border:1px solid black;
+border-radius:50%;
+filter: drop-shadow(0 0 16px rgba(0,255,255,0.8));
+position:relative;
+right:72vw;
+left:-3vw;
+}
+
+#but{
+height:40px;
+width:60px;
+border:0px solid transparent;
+background-image: linear-gradient(to right,lightgreen,skyblue);
+text-decoration:none;
+border:1px solid black;
+border-radius:9px;
+filter: drop-shadow(0 0 16px rgba(0,255,255,0.8));
+position:relative;
+left:26vw;
+}
+
+/*<iframe src="https://www.youtube.com/embed/AiLIL-KlUMg"></iframe>
+ */
+
+
+#ai:hover{
+
+color:white;
+text-decoration:none;
+border:1px solid black;
+filter: drop-shadow(0 0 15px #4411ce);
+bottom:2vh;
+
+}
+
+
+
+#butt:hover{
+color:white;
+text-decoration:none;
+border:1px solid black;
+border-radius:9px;
+filter: drop-shadow(0 0 10px #e53d32);
+}
+
+#but:hover{
+color:white;
+text-decoration:none;
+border:1px solid black;
+border-radius:9px;
+filter: drop-shadow(0 0 10px orange);
+}
+
+iframe{
+height:80vh;
+width:70vw;
+background-image: url("co.jpg");
+background-size:cover;
+position:relative;
+left:4vw;
+overflow:visible;
+}
